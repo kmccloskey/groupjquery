@@ -16,11 +16,16 @@
 			<label for="password">Password:</label>
 			<input type="password" name="password" id="password">
 			<br>
-			<label for="date">Enter a valid date, format like mm/dd/yyyy:</label>
-			<input type="text" name="date" id="date">
+			<label for="date">Enter a valid date, format like mm-dd-yyyy:</label>
+			<input type="text" name="date1" id="date1"><span> - </span>
+			<input type="text" name="date2" id="date2"><span> - </span>
+			<input type="text" name="date3" id="date3">
 			<br>
-			<button type="button" id="button">Verify</button>
+			<button type="button" id="button" onClick="submitDetails">Verify</button>
 		</form>
+<!-- 		<form action"#" method="POST">
+			<label for="number">Enter a letter or a number</label>
+			<input type="text" name="num" id="num"> -->
 	</div>
 </body>
 </html>
